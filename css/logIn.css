@@ -1,0 +1,27 @@
+.middleField{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+}
+
+ul li a:hover{
+    cursor: pointer;
+}
+.mFContainer{
+    height:83%;
+}
+
+.loginMargin{
+    margin:15px 0px;
+}
+
+.loginWidth75{
+    width:90px;
+}
+
+.loginButtonMargin{
+    margin-left:75px;
+}

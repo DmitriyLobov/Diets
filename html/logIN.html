@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="../else/bootstrap-3.3.4-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../else/bootstrap-3.3.4-dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="../css/logIn.css">
+    <script type="text/javascript" src="../js/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="../js/logIn.js"></script>
+    <script type="text/javascript" src="../else/bootstrap-3.3.4-dist/js/bootstrap.js"></script>
+    <meta charset="UTF-8">
+    <title>Diets</title>
+</head>
+
+<body>
+
+<!--Top navbar-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Diets</a>
+        </div>
+    </div>
+</nav>
+
+<!--middle field for logining-->
+<div class="middleField">
+    <ul class="nav nav-tabs">
+        <li role="presentation"><a id="signBtn">Зареєструватися</a></li>
+        <li role="presentation"><a id="logBtn">Увійти</a></li>
+    </ul>
+        <div id="logContainer" class="mFContainer">
+            <div class="input-group loginMargin">
+                <span class="input-group-addon loginWidth75" id="myLogIn">Логін</span>
+                <input type="text" class="form-control" placeholder="Логін" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group loginMargin">
+                <span class="input-group-addon loginWidth75" id="myPassword">Пароль</span>
+                <input type="text" class="form-control" placeholder="Пароль" aria-describedby="basic-addon1">
+            </div>
+
+            <button class="btn btn-info loginMargin loginButtonMargin">Увійти</button>
+        </div>
+
+    <div id="SignContainer" class="mFContainer">
+        <div class="input-group loginMargin">
+            <span class="input-group-addon loginWidth75">Пошта</span>
+            <input type="text" class="form-control" placeholder="Пошта" aria-describedby="basic-addon1" id="mySignMail">
+        </div>
+        <div class="input-group loginMargin">
+            <span class="input-group-addon loginWidth75">Логін</span>
+            <input type="text" class="form-control" placeholder="Логін" aria-describedby="basic-addon1" id="mySignLog">
+        </div>
+        <div class="input-group loginMargin">
+            <span class="input-group-addon loginWidth75">Пароль</span>
+            <input type="password" class="form-control" placeholder="Пароль" aria-describedby="basic-addon1"  id="mySignPass">
+        </div>
+        <div class="input-group loginMargin">
+            <span class="input-group-addon loginWidth75">Перевірка</span>
+            <input type="password" class="form-control" id="mySignPassRepeate" placeholder="Повторіть пароль" aria-describedby="basic-addon1">
+        </div>
+
+
+
+        <div class="btn-group">
+            <button data-toggle="dropdown" class="btn dropdown-toggle" id="logInRole">Роль    <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a id="roleDietology">Дієтолог</a></li>
+                <li><a id="roleClient">Клієнт</a></li>
+                <li><a id="rolePoster">Постачальник</a></li>
+            </ul>
+        </div>
+
+
+        <button class="btn btn-success loginMargin loginButtonMargin">Зареєструватися</button>
+    </div>
+</div>
+
+
+
+
+</body>
+
+</html>
